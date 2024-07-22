@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nada의 포트폴리오</title>
+
+  <script defer src="js/jquery-3.7.0.js"></script>
+  <script defer src="js/swiper-bundle.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script defer src="js/common.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header id="header">
+      <div class="header_top"><!-- 스크롤 됐을 때 검정 막대 -->
+        <div class="inner">
+          <h1 class="logo"><a href="/"><span class="screen_out">나다</span></a></h1>
+          <button type="button" class="btn_menu">
+            <span class="screen_out">메뉴열기</span>
+          </button>
+          <nav class="gnb">
+            <ul>
+              <li><a href="#introduce">introduce</a></li>
+              <li><a href="#gallery">gallery</a></li>
+              <li><a href="#portfolio">portfolio</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+          </nav>
+          <button type="button" class="btn_menu_close">
+            <span class="screen_out">메뉴닫기</span>
+          </button>
+        </div>
+      </div>
+      <p class="header_title"> 
+        <span>Creative Designer</span> <br>
+        NADA’s Portfolio</p>
+    </header>
+    <main>
+      <section id="introduce">
+        <div class="inner">
+          <h2 class="sec_tit">introduce</h2>
+          <div class="cont">
+            <div class="about_me">
+              <h3 class="tit">about me</h3>
+              <div class="profile">
+                <div class="img_wrap"> <img src="../images/profile.jpg" alt=""> </div>
+                <p> <strong>장지은</strong> UX/UI Designer </p>
+              </div>
+              <p class="profile_txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae illo dolores possimus, totam aspernatur quaerat nulla quisquam numquam reiciendis, consequatur odit, fugiat et a autem ab delectus quia aut. Error.</p>
+              <p class="profile_txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae illo dolores possimus, totam aspernatur quaerat nulla quisquam numquam reiciendis, consequatur odit, fugiat et a autem ab delectus quia aut. Error.</p>
+              <p class="profile_txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae illo dolores possimus, totam aspernatur quaerat nulla quisquam numquam reiciendis, consequatur odit, fugiat et a autem ab delectus quia aut. Error.</p>
+              <p class="profile_txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae illo dolores possimus, totam aspernatur quaerat nulla quisquam numquam reiciendis, consequatur odit, fugiat et a autem ab delectus quia aut. Error.</p>
+            </div>
+            <div class="experience">
+              <h3 class="tit">experience</h3>
+              <ul>
+                <li><strong>Adobe</strong>
+                  <p>무슨일 했는지, 몇년 근무했는지...</p>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt maiores impedit reiciendis veniam animi, nulla eius voluptatibus id consequatur harum voluptate sint blanditiis provident doloremque modi repellat. Dignissimos, velit.</p>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt maiores impedit reiciendis veniam animi, nulla eius voluptatibus id consequatur harum voluptate sint blanditiis provident doloremque modi repellat. Dignissimos, velit.</p>
+                </li>
+                <li><strong>Adobe</strong>
+                  <p>무슨일 했는지, 몇년 근무했는지...</p>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt maiores impedit reiciendis veniam animi, nulla eius voluptatibus id consequatur harum voluptate sint blanditiis provident doloremque modi repellat. Dignissimos, velit.</p>
+                </li>
+              </ul>
+            </div>
+            <div class="skills">
+              <h3 class="tit">skills</h3>
+              <ul>
+                <li>UX/UI Design
+                  <div class="bar">
+                    <div class="gauge" style="width: 90%"><span class="screen_out">90%</span></div>
+                  </div>
+                </li>
+                <li>HTML/CSS
+                  <div class="bar">
+                    <div class="gauge" style="width: 70%"><span class="screen_out">70%</span></div>
+                  </div>
+                </li>
+                <li>Web Accessbility
+                  <div class="bar">
+                    <div class="gauge" style="width: 40%"><span class="screen_out">40%</span></div>
+                  </div>
+                </li>
+                <li>Javascript/Lib
+                  <div class="bar">
+                    <div class="gauge" style="width: 80%"><span class="screen_out">80%</span></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="gallery">
+        <div class="inner">
+          <h2 class="sec_tit">galllery</h2>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <figure>
+                  <img src="./images/portfolio01.jpg" alt="">
+                  <figcaption>UX/UI Design0</figcaption>
+                </figure>
+              </div>
+              <div class="swiper-slide">
+                <figure>
+                  <img src="./images/portfolio02.jpg" alt="">
+                  <figcaption>UX/UI Design1</figcaption>
+                </figure>
+              </div>
+              <div class="swiper-slide">
+                <figure>
+                  <img src="./images/portfolio03.jpg" alt="">
+                  <figcaption>UX/UI Design2</figcaption>
+                </figure>
+              </div>
+              <div class="swiper-slide">
+                <figure>
+                  <img src="./images/portfolio01.jpg" alt="">
+                  <figcaption>UX/UI Design3</figcaption>
+                </figure>
+              </div>
+              <div class="swiper-slide">
+                <figure>
+                  <img src="./images/portfolio02.jpg" alt="">
+                  <figcaption>UX/UI Design4</figcaption>
+                </figure>
+              </div>
+              <div class="swiper-slide">
+                <figure>
+                  <img src="./images/portfolio03.jpg" alt="">
+                  <figcaption>UX/UI Design5</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="inner">
+          <h2 class="sec_tit">portfolio</h2>
+          <ul class="portfolio_list">
+            <!-- <li>
+              <a href="">
+                <div class="txt">
+                  <strong>디저트 카페 홈페이지 리뉴얼</strong>
+                  <p>#반응형웹 #UX/UI Design #2주작업 #웹접근성 준수 #기타 등등 #기타 등등등등등...</p>
+                </div>
+                <img src="./images/portfolio01.jpg" alt="">
+              </a>
+            </li> -->
+          </ul>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="inner">
+          <h2 class="sec_tit">contact</h2>
+          <form action="" id="myForm">
+            <div class="input_item">
+              <label for="name">이름</label>
+              <input type="text" id="name" name="name" placeholder="이름을 입력해 주세요">
+            </div>
+            <div class="input_item">
+              <label for="tel">전화번호</label>
+              <input type="text" id="tel" name="tel" placeholder="전화번호을 입력해 주세요">
+            </div>
+            <div class="input_item">
+              <label for="email">이메일</label>
+              <input type="text" id="email"  name="email" placeholder="이메일을 입력해 주세요">
+            </div>
+            <div class="input_item">
+              <label for="msg">내용</label>
+              <textarea name="msg" id="msg" cols="30" rows="10" placeholder="내용을 입력해 주세요"></textarea>
+            </div>
+            <button type="submit"> 보내기 </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <small>@2024 NADA Copyright All Rights Reserved.</small>
+    </footer>
+
+    <div class="portfolio_pop">
+      <div class="dim"></div>
+      <div class="content">
+        <h1>포폴 제목</h1>
+        <p>포폴 설명하는 내용</p>
+        <img src="./images/portfolio01.jpg" alt="">
+        <button>닫기</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
